@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <header>
+         <a href="index.html">Google search</a>
+        </header>
+        <div>
+            <form action="https://www.google.com/search">
+                <div class="search-container">
+                    <input type="text" class="search-bar" placeholder="Search" name="q">
+                </div>
+
+                <div class="search-container">
+                    <button type="submit" class= "search-button" value="Google Advanced Search" >Search</button>
+                </div>
+
+                <div>
+                    Find pages with...
+                </div>
+
+                <div class="additional-container">
+                    <label for="atw">all these words:</label>  
+                    <input type="text" class="additional-atw" id="atw" placeholder="Search" name="q">
+                    <label for="tewop">this exact word or phrase:</label>
+                    <input type="text" class="additional-tewop" id="tewop" placeholder="these exact word or phrase" name="q">
+                    <label for="aotw">any of these words:</label>
+                    <input type="text" id="aotw" class="additional-aotw" placeholder="any of these words" name="q">
+                    <input type="text" id="notw" class="additional-notw" placeholder="none of these word" name="q">
+                    <label for="notw">none of these words:</label>  
+                    
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

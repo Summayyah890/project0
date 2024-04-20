@@ -1,0 +1,88 @@
+header{
+    display: flex;
+    justify-content: right;
+    color: blueviolet;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;  
+  }
+  
+  .search-bar {
+    width: 200px;  
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color:aquamarine; 
+  }
+  
+  
+  label{
+    float: left;
+    width: 30%;
+    padding: 3px ;
+    margin: 1px 0;
+    display: inline-block;
+    justify-content: right;
+    clear: both;
+  }
+
+  .search-button {
+    margin-top: 5px;  
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: lightblue;
+  }
+  .additional-aotw{
+    width: 60%;
+    justify-content: left;
+    float: left;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .additional-atw{
+    width: 60%;
+    justify-content: left;
+    float: left;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .additional-notw{
+    width: 50%;
+    justify-content: left;
+    float:left;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .additional-tewop{
+    width: 60%;
+    justify-content: left;
+    float: left;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
